@@ -51,3 +51,12 @@ CustomBackgroundColor.args = {
   fontColor: "#FFFFFF",
   backgroundColor: "#5517ac",
 };
+
+export const CustomStyleLabel = Template.bind({});
+CustomStyleLabel.args = {
+  style: {
+    backgroundColor: "#5517ac",
+    color: "#FFFFFF",
+    padding: "10px",
+  },
+};
